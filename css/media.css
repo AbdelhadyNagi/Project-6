@@ -1,0 +1,432 @@
+/* Smart phones and Taplet Screens */
+@media (max-width: 767px) {
+  .container {
+    max-width: 750px;
+  }
+  header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  nav {
+    position: relative;
+    padding-bottom: 50px;
+  }
+  nav .menu {
+    width: 10%;
+  }
+  nav .menu i {
+    display: block;
+    transform: translateY(50%);
+    color: #7b61ff;
+  }
+  nav .menu ul {
+    display: none;
+    background-color: #7b61fff1;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    right: 0px;
+    top: 55px;
+  }
+  nav .menu ul li {
+    display: block;
+    border-top: 2px solid #fff;
+    margin: 0;
+    padding: 15px 25px;
+    text-align: center;
+    transition: 0.5s;
+  }
+  nav .menu ul li:not(:last-child):hover {
+    transform: scale(1.1);
+  }
+  nav .menu ul li a {
+    color: #fff;
+    display: block;
+    transition: 0.5s;
+  }
+  nav .menu ul li:last-child a {
+    color: #7b61ff;
+  }
+  nav .menu:hover ul {
+    display: block;
+  }
+  header .header-content .txt > a {
+    text-align: center;
+  }
+  header .header-content .txt h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  header .header-content .txt > a::before {
+    width: 40px;
+    left: -41px;
+  }
+  header .header-content .txt p {
+    text-align: center;
+  }
+  header .header-content .txt .links {
+    justify-content: center;
+  }
+  header .header-content .txt .links a:first-child,
+  header .header-content .txt .links a:nth-child(2) {
+    padding: 10px;
+  }
+  header .header-content .txt hr {
+    transform: translateX(5%);
+  }
+  header .header-content .txt p:last-child {
+    text-align: center;
+  }
+  header .header-content .img {
+    width: 100%;
+  }
+  .body {
+    padding-top: 20px;
+  }
+  .body .section-1 h2,
+  .body .section-3 h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .body .section-1 .section-1-content .img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .body .section-1 .section-1-content .img svg {
+    height: 250px;
+  }
+  .body .section-1 .section-1-content .works {
+    width: 100%;
+    gap: 0;
+  }
+  .body .section-1 .section-1-content .works .col-1,
+  .body .section-1 .section-1-content .works .col-2 {
+    width: 85%;
+    text-align: center;
+  }
+  .body .section-1 .section-1-content .works .work,
+  .body .section-1 .section-1-content .works .work h3,
+  .body .section-1 .section-1-content .works .work p {
+    text-align: center;
+  }
+  .body .setcion-2 {
+    padding: 30px;
+  }
+  .body .setcion-2 p {
+    font-size: 32px;
+    text-align: center;
+  }
+  .body .setcion-2 ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .body .setcion-2 ul li img {
+    width: 40%;
+    transform: translateX(0);
+  }
+  .body .section-3 .photos .cols {
+    flex-flow: column wrap;
+    gap: 0;
+  }
+  .body .section-3 .photos .cols .col-1 {
+    width: 100%;
+  }
+  .body .section-3 .photos .cols .col-2 {
+    width: 100%;
+    height: 500px;
+  }
+  .body .section-3 #bottom-image img {
+    display: none;
+  }
+  .body .section-3 .plans {
+    margin: 20px auto;
+    flex-flow: column;
+    gap: 0;
+  }
+  .body .section-3 .plans .plan {
+    width: 100%;
+  }
+  .body .section-4 .careers-desktop {
+    display: none;
+  }
+  .body .section-4 .careers-mobile {
+    display: block;
+  }
+  .body .section-4 .careers-mobile p {
+    margin: 10px 0 15px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    color: #6b7280;
+  }
+  .body .section-4 .careers-mobile p span {
+    color: black;
+    font-weight: bold;
+  }
+  .body .section-4 .careers-mobile hr {
+    border: none;
+    height: 1px;
+    background: #e5e7eb;
+  }
+  footer {
+    padding: 20px;
+  }
+  footer h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+  footer p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  footer ul li {
+    margin: 6px;
+    width: 18px;
+  }
+}
+/* ........................................................................... */
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+  nav {
+    position: relative;
+  }
+  nav .menu {
+    width: 10%;
+  }
+  nav .menu i {
+    display: block;
+    transform: translateY(50%);
+    color: #7b61ff;
+  }
+  nav .menu ul {
+    display: none;
+    background-color: #7b61ff17;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    right: -90px;
+    top: 55px;
+  }
+  nav .menu ul li {
+    display: block;
+    border-top: 2px solid #fff;
+    margin: 0;
+    padding: 15px 25px;
+    text-align: center;
+    transition: 0.5s;
+  }
+  nav .menu ul li:not(:last-child):hover {
+    transform: scale(1.1);
+  }
+  nav .menu ul li a {
+    display: block;
+    transition: 0.5s;
+  }
+  nav .menu ul li:last-child a:hover {
+    background-color: #7b61ff;
+    color: #fff;
+  }
+  nav .menu:hover ul {
+    display: block;
+  }
+  header .header-content .txt > a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  header .header-content .txt h1 {
+    font-size: 42px;
+    text-align: center;
+  }
+  header .header-content .txt > a::before {
+    width: 60px;
+    left: 132px;
+  }
+  header .header-content .txt p {
+    text-align: center;
+  }
+  header .header-content .txt .links {
+    justify-content: center;
+  }
+  header .header-content .txt .links a:first-child,
+  header .header-content .txt .links a:nth-child(2) {
+    padding: 10px;
+  }
+  header .header-content .txt hr {
+    transform: translateX(5%);
+  }
+  header .header-content .txt p:last-child {
+    text-align: center;
+  }
+  header .header-content .img {
+    width: 100%;
+  }
+  .body {
+    padding-top: 20px;
+  }
+  .body .section-1 h2,
+  .body .section-3 h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .body .section-1 .section-1-content .img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .body .section-1 .section-1-content .img svg {
+    height: 250px;
+  }
+  .body .section-1 .section-1-content .works {
+    width: 100%;
+    gap: 0;
+  }
+  .body .section-1 .section-1-content .works .col-1,
+  .body .section-1 .section-1-content .works .col-2 {
+    width: 85%;
+    text-align: center;
+  }
+  .body .section-1 .section-1-content .works .work,
+  .body .section-1 .section-1-content .works .work h3,
+  .body .section-1 .section-1-content .works .work p {
+    text-align: center;
+  }
+  .body .setcion-2 {
+    padding: 30px;
+  }
+  .body .setcion-2 p {
+    font-size: 42px;
+    text-align: center;
+  }
+  .body .setcion-2 ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .body .setcion-2 ul li img {
+    width: 20%;
+    transform: translateX(0);
+  }
+  .body .section-3 .photos .cols {
+    flex-flow: column wrap;
+    gap: 0;
+  }
+  .body .section-3 .photos .cols .col-1 {
+    width: 100%;
+  }
+  .body .section-3 .photos .cols .col-2 {
+    width: 100%;
+    height: 500px;
+  }
+  .body .section-3 #bottom-image img {
+    display: none;
+  }
+  .body .section-3 .plans {
+    margin: 20px auto;
+    flex-flow: column;
+    gap: 0;
+  }
+  .body .section-3 .plans .plan {
+    width: 50%;
+  }
+  .body .section-4 .careers-desktop {
+    display: none;
+  }
+  .body .section-4 .careers-mobile {
+    display: block;
+  }
+  .body .section-4 .careers-mobile p {
+    margin: 10px 0 15px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    color: #6b7280;
+  }
+  .body .section-4 .careers-mobile p span {
+    color: black;
+    font-weight: bold;
+  }
+  .body .section-4 .careers-mobile hr {
+    border: none;
+    height: 1px;
+    background: #e5e7eb;
+  }
+  footer {
+    padding: 20px;
+  }
+  footer h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+  footer p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  footer ul li {
+    margin: 6px;
+    width: 18px;
+  }
+}
+/* ........................................................................... */
+/* Medium Screens */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 970px;
+  }
+  header .header-content .txt h1 {
+    font-size: 52px;
+  }
+  header .header-content .img {
+    width: 38%;
+  }
+  .body .section-1 h2 {
+    font-size: 32px;
+    padding-bottom: 0;
+  }
+  .body .section-1 .section-1-content .img {
+    width: 50%;
+  }
+  .body .section-1 .section-1-content .works {
+    width: 90%;
+  }
+  .body .setcion-2 {
+    padding: 60px;
+  }
+  .body .section-4 .careers-desktop {
+    display: none;
+  }
+  .body .section-4 .careers-mobile {
+    display: block;
+  }
+  .body .section-4 .careers-mobile p {
+    margin: 10px 0 15px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    color: #6b7280;
+  }
+  .body .section-4 .careers-mobile p span {
+    color: black;
+    font-weight: bold;
+  }
+  .body .section-4 .careers-mobile hr {
+    border: none;
+    height: 1px;
+    background: #e5e7eb;
+  }
+}
+/* ........................................................................... */
+/* Large Screens */
+@media (min-width: 1200) {
+  .container {
+    width: 1170px;
+  }
+}
+/* ........................................................................... */
